@@ -26,7 +26,7 @@ def calculos_para_entradas_populares(cant):
     if cant < entradas_populares :
         global total_recaudado
         total_recaudado= total_recaudado + (valor_populares * cant)
-    print("Cantidad de entras solicitas mayor a la cantidad de entradas disponibles")
+    print("Cantidad de entras solicitas mayor a la cantidad de entradas disponibless")
 
 while True:
 
