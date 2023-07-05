@@ -19,6 +19,15 @@ def calculos_para_entradas_vip(cant):
 
 
 
+def calculos_para_entradas_exclusivas(cant):
+    #asignado a Damian
+    global total_recaudado
+    if cant < entradas_exclusivas:
+        total_a_pagar = valor_exclusivas * cant
+        total_recaudado += total_a_pagar
+    print('El total a pagar es: $', total_a_pagar)
+
+
 def calculos_para_entradas_populares(cant):
     #asignado a Agustín
     if cant < entradas_populares :
