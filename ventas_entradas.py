@@ -17,9 +17,7 @@ def calculos_para_entradas_vip(cant):
 #asignado a Omar
     pass
 
-def calculos_para_entradas_exclusivas(cant):
-    #asignado a Damian
-    pass
+
 
 def calculos_para_entradas_populares(cant):
     #asignado a Agustín
