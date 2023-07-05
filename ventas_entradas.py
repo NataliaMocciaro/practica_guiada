@@ -17,6 +17,8 @@ def calculos_para_entradas_vip(cant):
 #asignado a Omar
     pass
 
+
+
 def calculos_para_entradas_exclusivas(cant):
     #asignado a Damian
     global total_recaudado
@@ -25,9 +27,13 @@ def calculos_para_entradas_exclusivas(cant):
         total_recaudado += total_a_pagar
     print('El total a pagar es: $', total_a_pagar)
 
+
 def calculos_para_entradas_populares(cant):
     #asignado a Agustín
-    pass
+    if cant < entradas_populares :
+        global total_recaudado
+        total_recaudado= total_recaudado + (valor_populares * cant)
+    print("Cantidad de entras solicitas mayor a la cantidad de entradas disponibless")
 
 while True:
 
