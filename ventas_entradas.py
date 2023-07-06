@@ -15,7 +15,15 @@ total_clientes = 0
 
 def calculos_para_entradas_vip(cant):
 #asignado a Omar
-    pass
+    cant = cantidad_solicitada * valor_vip
+
+    if cantidad_solicitada <= entradas_vip:
+        print("el total a pagar es :",cant)
+        global total_recaudado 
+        total_recaudado = cant+ 1
+    else:
+        print("No está habilitado más de 20 entradas")
+    
 
 
 
